@@ -40,7 +40,7 @@ body{
   border: 3px solid black;
   background-color: gray;
   height: 1000px;
-  width: 90%;
+  width: 100%;
   overflow: auto;
 }
 .clase {
