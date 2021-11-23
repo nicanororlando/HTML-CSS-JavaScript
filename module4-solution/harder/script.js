@@ -63,9 +63,9 @@ for (var name in names) {
   // name in the loop.
 
   if (firstLetter == "J" || firstLetter.toLowerCase() == "j") {
-    helloSpeaker.speak(names[name]);
-  } else {
     byeSpeaker.speak(names[name]);
+  } else {
+    helloSpeaker.speak(names[name]);;
   }
 }
 

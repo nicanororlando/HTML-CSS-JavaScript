@@ -17,7 +17,7 @@ var speakWord = "Hello";
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
 
-helloSpeaker.speak = function (name) {
+helloSpeaker.speak = function s(name) {
   console.log(speakWord + " " + name);
 }
 
