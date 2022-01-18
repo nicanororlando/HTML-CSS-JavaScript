@@ -1,2 +1,2 @@
 # proyectos-web
-Proyectos web realizados utilizando  HTML, CSS Y JavaScript.
+Proyectos  web de practica utilizando HTML, Css y JavaScript.
