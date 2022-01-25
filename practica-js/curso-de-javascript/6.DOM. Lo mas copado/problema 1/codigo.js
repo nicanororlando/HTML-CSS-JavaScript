@@ -17,7 +17,7 @@ for (var i = 1; i <= 20; i++) {
 	let llave = crearLlave(`llave ${i}`,`modelo ${modeloRandom}`,precioRandom);
     let div = document.createElement("DIV");
     div.addEventListener("click",()=>{
-    	document.querySelector(".key-data").value = modeloRandom
+    	document.querySelector(".key-data").value = modeloRandom;
     });
     div.tabIndex = i;
     div.classList.add(`item-${i}`,'flex-item');
