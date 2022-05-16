@@ -7,8 +7,6 @@
 // 6.Editar algunas propiedades para que sea agradable y dinamico.
 // 7.Configurar estilos CSS.
 
-alert("puto el q lea")
-
 const container = document.querySelector(".flex-container");
 const documentFragment = document.createDocumentFragment();
 

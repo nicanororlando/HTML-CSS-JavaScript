@@ -5,7 +5,7 @@
 body{
 	background: radial-gradient(circle,#fff,#bbb);
 	padding: 15px;
-	display: flex;
+
 }
 .grid-container{
 	display: grid;
