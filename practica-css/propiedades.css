@@ -1,0 +1,38 @@
+.class {
+	padding: 1px 2px 3px 4px;	/* Top right bottom left. El padding es el tamaño entre la caja y texto o contenido*/
+	margin: 1px 2px 3px 4px;	/* Igual. El margin es el tamaño entre cajas o elementos. */
+	margin: auto;				/* Se suele usar para centrar el bloque */
+	display: inline-block;		/* Para cambiar tipo de caja */
+	line-height: 2;				/* Es el tamaño no de la letra sino del espacio que ocupa. 1 es el tamaño normal, 2 ocupa el doble */
+	box-sizing: border-box;		/* Cuando le demos un tamaño a una caja, si esta propiedad esta activa, ese tamaño que le demos va a ser incluyendo todo (padding, margin, bordes, ...) */
+	border: 5px solid red;		/* Ademas de solid tambien hay otros tipos de bordes */
+	box-shadow: 1px 2px 15px 0  #000;	/* Eje x, eje y, tamaño del desenfoque, cuanto borde va a tener, color. */
+	text-shadow: 2px 2px 7px #000, 2px 2px 7px #000;		/* Igual que box-shadow pero sin borde. Si repetimos el proceso se aumenta la intensidad */
+	transform: rotate(45deg);	/* Para rotar */
+	outline: 10px solid blue;	/* Le da un borde peeeero no mueve la caja ni elemento para darle ese borde */
+	transition: background 1s, height, 1s, weight 1s;
+	resize: none;	
+	justify-content: center;
+	flex-wrap: wrap;			/* Para que se pueda deslizar en responsive tipo float */
+	background: inherit;		/* Hereda el color del padre */
+	background: linear-gradient(to bottom, transparent, #222);
+	grid-template-columns: 150px 150px 150px 1fr;
+	grid-template-columns: repeat(3,150px) 1fr;		/* Repite 3 veces 150px en este caso. Es lo mismo q lo de arriba */
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+	filter: blur(20px);
+	transform: translate(160px);
+	grid-template-areas: 
+		"header header header"
+		"aside main main"
+		"aside main main"
+		"aside main main"
+		"aside main main"
+		"footer footer footer";
+		/*
+		.grid-header{
+		background: #f96;
+		grid-area: header;
+	}*/
+	grid-column: 1/3;
+	object-fit: cover;
+}

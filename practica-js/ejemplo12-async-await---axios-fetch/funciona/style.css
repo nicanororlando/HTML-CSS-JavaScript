@@ -1,0 +1,27 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+#nombre{
+    font-size: 50px;
+    margin: 20px;
+}
+.resultado{
+    background-color: #333;
+    margin: 20px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    background-color: #444;
+    width: 40%;
+    margin: 15px;
+    padding: 15px 15px 0 15px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+.red{
+    background-color: darkred;
+}
