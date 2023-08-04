@@ -13,8 +13,8 @@ var john = {
 
 // don't do this EVER! for demo purposes only!!!
 john.__proto__ = person;
-console.log(john.getFullName());
-console.log(john.firstname);
+console.log(john.getFullName());    // John Doe
+console.log(john.firstname);        // John
 
 var jane = {
     firstname: 'Jane'   

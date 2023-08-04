@@ -15,8 +15,8 @@ var d;
 d = c;
 c.greeting = 'hello'; // mutate
 
-console.log(c);
-console.log(d);
+console.log(c); // Object {greeting: "hello"}
+console.log(d); // Object {greeting: "hello"}
 
 // by reference (even as parameters)
 function changeGreeting(obj) {
@@ -24,10 +24,10 @@ function changeGreeting(obj) {
 }
 
 changeGreeting(d);
-console.log(c);
-console.log(d);
+console.log(c); // Object {greeting: "hola"}
+console.log(d); // Object {greeting: "hola"}
 
 // equals operator sets up new memory space (new address)
-c = { greeting: 'howdy' };
-console.log(c);
-console.log(d);
+c = { greeting: 'hola' };
+console.log(c); // Object {greeting: "howdy"}
+console.log(d); // Object {greeting: "hola"}

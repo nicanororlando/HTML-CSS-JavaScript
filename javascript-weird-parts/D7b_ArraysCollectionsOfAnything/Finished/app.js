@@ -13,5 +13,5 @@ var arr = [
 ];
 
 console.log(arr);
-arr[3](arr[2].name);
+arr[3](arr[2].name);    // hello Tony
 

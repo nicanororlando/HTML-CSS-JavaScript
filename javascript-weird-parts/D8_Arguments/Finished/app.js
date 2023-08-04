@@ -11,16 +11,15 @@ function greet(firstname, lastname, language) {
     console.log(firstname);
     console.log(lastname);
     console.log(language);
-    console.log(arguments);
+    console.log(arguments); 
     console.log('arg 0: ' + arguments[0]);
     console.log('-------------');
     
 }
 
-greet();
-greet('John');
-greet('John', 'Doe');
-greet('John', 'Doe', 'es');
-
+greet();                    // []
+greet('John');              // ['John']
+greet('John', 'Doe');       // ['John', 'Doe']
+greet('John', 'Doe', 'es'); // ['John', 'Doe', 'es']'
 // in ES6 I can do:  function greet(firstname, ...other)
 // and 'other' will be an array that contains the rest of the arguments

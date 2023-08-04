@@ -1,9 +1,6 @@
 function getPerson() {
- 
     return {
         firstname: 'Tony'
     }
-    
 }
-
-console.log(getPerson());
+console.log(getPerson());   //undefined

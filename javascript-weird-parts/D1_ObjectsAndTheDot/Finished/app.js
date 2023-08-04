@@ -1,7 +1,7 @@
 var person = new Object();
 
-person["firstname"] = "Tony";
-person["lastname"] = "Alicea";
+person["firstname"] = "Tony";   // This creates a new space in memory
+person["lastname"] = "Alicea";  // ''
 
 var firstNameProperty = "firstname";
 

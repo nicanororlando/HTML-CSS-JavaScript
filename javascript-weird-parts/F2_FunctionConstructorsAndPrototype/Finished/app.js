@@ -1,10 +1,8 @@
 function Person(firstname, lastname) {
- 
-    console.log(this);
+    console.log(this);          // Person{firstName, lastName, __proto__}
     this.firstname = firstname;
     this.lastname = lastname;
     console.log('This function is invoked.');
-    
 }
 
 Person.prototype.getFullName = function() {
@@ -12,10 +10,10 @@ Person.prototype.getFullName = function() {
 }
 
 var john = new Person('John', 'Doe');
-console.log(john);
+console.log(john.getFullName);  // John Doe
 
-var jane = new Person('Jane', 'Doe');
-console.log(jane);
+var jane = new Person('Canor', 'Orlando');
+console.log(jane.getFullName);  // Canor Orlando
 
 Person.prototype.getFormalFullName = function() {
     return this.lastname + ', ' + this.firstname;   
